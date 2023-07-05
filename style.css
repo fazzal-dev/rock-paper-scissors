@@ -147,14 +147,14 @@ img:hover {
 
 @media (max-width: 570px) {
   header h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   header h3 {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .score-info {
-    font-size: 29px;
+    font-size: 20px;
   }
 
   .score p {
@@ -167,8 +167,8 @@ img:hover {
 
   .btn {
     width: 150px;
-    height: 50px;
-    margin: 90px 20px 20px 20px;
+    height: 80px;
+    margin: 80px 20px 20px 20px;
     font-size: 20px;
   }
 
