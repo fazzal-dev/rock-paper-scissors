@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="fav-icon/rock-paper-scissors.png">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1 class="rps-title">Rock Paper Scissors</h1>
+        <h3 class="rps-title">First to score 5 Wins!</h3>
+      </div>
+    </header>
+    <main class="main">
+      <div class="buttons">
+        <button class="btn"  id="rockBtn">Rock</button>
+        <button class="btn" id="paperBtn">Paper</button>
+        <button class="btn" id="scissorBtn">Scissors</button>
+      </div>
+      <div class="score-container">
+        <h2 class="score-info" id="scoreInfo"></h2>
+        <h2 class="score-info" id="scoreMsg"></h2>
+        <div class="score">
+          <p id="playerScore">Player: 0</p>
+          <p id="computerScore">Computer: 0</p>
+        </div>
+      <p class="winner-msg" id="winnerMsg"></p>
+      <button class="reset-btn reset-game" id="reset">Reset</button>
+    </main>
+    <footer class="footer">
+      <p>made by fazzal.dev <a href="https://github.com/fazzal-dev" target="_blank"><img src="fav-icon/github-icon.svg" alt="github icon"></a></p>
+    </footer>
+  </body>
+</html>
