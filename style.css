@@ -61,10 +61,6 @@ header h1 {
   border: 3px solid var(--accent);
 }
 
-.btn-text {
-  background-color: var(--primary-button);
-}
-
 .btn:hover {
   cursor: pointer;
   background-color: var(--accent);
@@ -162,7 +158,10 @@ img:hover {
   }
 
   .footer p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .footer img {
+    width: 25px;
   }
 
   .btn {
